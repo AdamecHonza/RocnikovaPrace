@@ -20,8 +20,8 @@ export default function Input() {
   return (
     <>
     <form > 
-      <input className="input" onChange={handleInput} name="name" placeholder="Name"/>
-      <input className="input" onChange={handleInput} name="lastName" placeholder="lastName"/>
+      <input className="input" onChange={handleInput} name="name" placeholder="name"/>
+      <input className="input" onChange={handleInput} name="lastName" placeholder="lastname"/>
       <input className="input" onChange={handleInput} name="email" placeholder="email"/>
       <Button onClick={handleSubmit} variant="dark"  className="sendButton"> Reserve </Button>
       </form>

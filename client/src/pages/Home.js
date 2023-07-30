@@ -12,7 +12,7 @@ export default function HomePage() {
       <div id="about">
 
         <h1>About Me</h1>
-        <img className="aboutImage" src={interpret} alt="logo.png" />
+        <img className="aboutImg" src={interpret} alt="interpret.png" />
         <p className="aboutText">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque
           pretium lectus id turpis. Duis risus. Praesent id justo in neque
@@ -38,10 +38,6 @@ export default function HomePage() {
           porttitor ut, iaculis quis, sem. Maecenas aliquet accumsan leo. In sem
           justo, commodo ut, suscipit at, pharetra vitae, orci.
         </p>
-
-        <h1 id="about">About Me</h1>
-        <img className="aboutImage" src={interpret} alt="logo.png" />
-        <p className="aboutText">Hey Im gay lol</p>
       </div>  
       <div>
         <h1 id="concerts">Concerts</h1>
