@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/*IMAGES*/
+img {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px ;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://htmlcolorcodes.com/assets/images/colors/black-color-solid-background-1920x1080.png");
+    height: 100vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/*HERO-END*/
+
+
+/*CONCERTS*/
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    margin-left: 40%;
+    margin-top: 80px;
+}
+
+#concerts {
+    justify-content: center;
+    display: flex;
+}
+
+/*CONCERTS-END*/
+
+/*FOOTER*/
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
