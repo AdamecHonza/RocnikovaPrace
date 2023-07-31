@@ -8,6 +8,5 @@ Ročníková práce na téma: Rezervační systém v jazyce JavaScript
 3) Přepojit se do složky server
 4) Napsat opět do konzole: npm start
 
-!Jelikož server běží na jiném portu (5000) než obvykle ( což je port 3000), bude pravděpodobně potřeba nainstalovat CORS!
-Je potřeba nainstalovat také axios, react-router-dom a sweetalerts!
+Je potřeba nainstalovat axios, react-router-dom a sweetalerts!
 - nezapomenout na npm i 😊
