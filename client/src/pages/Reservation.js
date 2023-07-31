@@ -1,6 +1,5 @@
 import Input from "../components/Inputs";
 import NavigationBarReserve from "../components/NavbarReserve";
-import Footer from "../components/Footer";
 
 
 export default function ReservationPage() {

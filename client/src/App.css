@@ -77,3 +77,38 @@ h1 {
     margin-top: 5%;
 }
 
+input::placeholder {
+    color:white;
+    font-size: 20px;
+}
+
+input:hover {
+    background-color: rgb(196, 204, 198);
+}
+
+input:hover::placeholder {
+    color: black;
+}
+
+input {
+    background-color: black;
+    text-align: center;
+    color:white;
+    border-width: 5px;
+    height: 40px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    cursor: default;
+}
+
+.sendButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 300px;
+    margin-top: 5%;
+}
